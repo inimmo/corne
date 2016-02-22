@@ -1,0 +1,18 @@
+{
+	"name": "inimmo/corne",
+
+	"license": "MIT",
+
+	"description": "PHP simplementation of various evolutionary algorithms",
+
+	"autoload": {
+		"psr-4": {
+			"Corne\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=5.6",
+		"illuminate/support": "^5.2",
+		"paragonie/random_compat": "^1.1"
+	}
+}
